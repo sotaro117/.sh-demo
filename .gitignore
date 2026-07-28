@@ -1,0 +1,84 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Xcode / Swift
+DerivedData/
+build/
+*.xcuserstate
+*.xcbkptlist
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+*.swiftpm/
+*.build/
+
+# Secrets and private config
+.env
+.env.*
+*.env
+*.local
+*.p12
+*.pfx
+*.pem
+*.cer
+*.mobileprovision
+*.key
+*.crt
+*.pub
+secrets/
+credentials/
+config/local.*
+**/GoogleService-Info*.plist
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+env.*/
+*.egg-info/
+pip-wheel-metadata/
+
+# Node / Firebase / web tools
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+.firebase/
+coverage/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log*
+firebase-debug.*.log*
+
+# Databases / local data / backups
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.backup
+*.bak
+*.dump
+*.local
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Temp files
+*.swp
+*.swo
+*~

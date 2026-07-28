@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920812012EA5902000565C70 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 920812002EA5902000565C70 /* FirebaseCore */; };
+		920812032EA590DB00565C70 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 920812022EA590DB00565C70 /* FirebaseCore */; };
+		920812052EA590DB00565C70 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 920812042EA590DB00565C70 /* FirebaseMessaging */; };
+		9248C6CA2E86FF7500475C1C /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9248C6C92E86FF7500475C1C /* PhoneNumberKit */; };
+		9248C6CE2E86FF7500475C1C /* PhoneNumberKit-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 9248C6CD2E86FF7500475C1C /* PhoneNumberKit-Static */; };
+		92D2BC9C2EA5A0E60074E603 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 92D2BC9B2EA5A0E60074E603 /* Supabase */; };
+		92D2BC9E2EA5A0F80074E603 /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = 92D2BC9D2EA5A0F80074E603 /* PhoneNumberKit */; };
+		92DBCCE12E74741B00ED949E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 92DBCCE02E74741B00ED949E /* FirebaseAnalytics */; };
+		92DBCCE32E74741B00ED949E /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 92DBCCE22E74741B00ED949E /* FirebaseMessaging */; };
+		92DBCCE82E7AC60F00ED949E /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 92DBCCE72E7AC60F00ED949E /* Supabase */; };
+		92FE0C922EA592DD00D2F813 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 92FE0C912EA592DD00D2F813 /* FirebaseCore */; };
+		92FE0C942EA592DD00D2F813 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 92FE0C932EA592DD00D2F813 /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92EBD9652EA4548C0024B3FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92842E432E071ABD0012256B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92842E4A2E071ABD0012256B;
+			remoteInfo = ShoppingCalculator;
+		};
+		92EBD9742EA4558C0024B3FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92842E432E071ABD0012256B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92842E4A2E071ABD0012256B;
+			remoteInfo = ShoppingCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92842E4B2E071ABD0012256B /* ShoppingCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EBD9612EA4548C0024B3FF /* ShoppingCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EBD96E2EA4558C0024B3FF /* ShoppingCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		92B484852E12E3B1001F0A55 /* Exceptions for "ShoppingCalculator" folder in "ShoppingCalculator" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 92842E4A2E071ABD0012256B /* ShoppingCalculator */;
+		};
+		92CB23892EA583C20088FEEF /* Exceptions for "ShoppingCalculatorTests" folder in "ShoppingCalculatorTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ShoppingCalculatorTests.swift,
+			);
+			target = 92EBD9602EA4548C0024B3FF /* ShoppingCalculatorTests */;
+		};
+		92CB238A2EA583C20088FEEF /* Exceptions for "ShoppingCalculatorTests" folder in "ShoppingCalculatorUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ShoppingCalculatorTests.swift,
+			);
+			target = 92EBD96D2EA4558C0024B3FF /* ShoppingCalculatorUITests */;
+		};
+		92FE0C9D2EA59B9800D2F813 /* Exceptions for "ShoppingCalculator" folder in "ShoppingCalculatorTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Camera/CameraManager.swift,
+				Camera/CameraPreview.swift,
+				Camera/CameraViewModel.swift,
+				Models/MealPlan.swift,
+				Models/Notification.swift,
+				Models/Product.swift,
+				Models/Profile.swift,
+				Models/Purchase.swift,
+				Models/Report.swift,
+				Utils/AppleSignInCoordinator.swift,
+				Utils/AuthService.swift,
+				Utils/ErrorHandler.swift,
+				Utils/ImageRecognizer.swift,
+				Utils/MealAnalyzer.swift,
+				Utils/MealPlanner.swift,
+				Utils/NotificationManager.swift,
+				Utils/Supabase.swift,
+				Utils/UserService.swift,
+				Views/AnalysisView.swift,
+				Views/AvatarImage.swift,
+				Views/CalendarView.swift,
+				Views/CameraView.swift,
+				Views/ChartView.swift,
+				Views/ContentView.swift,
+				Views/HistoryDetail.swift,
+				Views/HistoryView.swift,
+				Views/HomeView.swift,
+				Views/ManualInputModal.swift,
+				Views/OtpFormFieldView.swift,
+				Views/PhoneNumberField.swift,
+				Views/ScannerView.swift,
+				Views/SearchView.swift,
+				Views/SegmentControl.swift,
+				Views/SettingDetailList.swift,
+				Views/SettingView.swift,
+				Views/SigninDetailModal.swift,
+				Views/SigninModal.swift,
+				Views/SigninView.swift,
+				Views/StartView.swift,
+				Views/StepperControl.swift,
+				Views/SumListView.swift,
+				Views/UserEditModal.swift,
+				Views/UserModalView.swift,
+				Views/UserProfileView.swift,
+			);
+			target = 92EBD9602EA4548C0024B3FF /* ShoppingCalculatorTests */;
+		};
+		92FE0C9E2EA59B9800D2F813 /* Exceptions for "ShoppingCalculator" folder in "ShoppingCalculatorUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Camera/CameraManager.swift,
+				Camera/CameraPreview.swift,
+				Camera/CameraViewModel.swift,
+				Models/MealPlan.swift,
+				Models/Notification.swift,
+				Models/Product.swift,
+				Models/Profile.swift,
+				Models/Purchase.swift,
+				Models/Report.swift,
+				Utils/AppleSignInCoordinator.swift,
+				Utils/AuthService.swift,
+				Utils/ErrorHandler.swift,
+				Utils/ImageRecognizer.swift,
+				Utils/MealAnalyzer.swift,
+				Utils/MealPlanner.swift,
+				Utils/NotificationManager.swift,
+				Utils/Supabase.swift,
+				Utils/UserService.swift,
+				Views/AnalysisView.swift,
+				Views/AvatarImage.swift,
+				Views/CalendarView.swift,
+				Views/CameraView.swift,
+				Views/ChartView.swift,
+				Views/ContentView.swift,
+				Views/HistoryDetail.swift,
+				Views/HistoryView.swift,
+				Views/HomeView.swift,
+				Views/ManualInputModal.swift,
+				Views/OtpFormFieldView.swift,
+				Views/PhoneNumberField.swift,
+				Views/ScannerView.swift,
+				Views/SearchView.swift,
+				Views/SegmentControl.swift,
+				Views/SettingDetailList.swift,
+				Views/SettingView.swift,
+				Views/SigninDetailModal.swift,
+				Views/SigninModal.swift,
+				Views/SigninView.swift,
+				Views/StartView.swift,
+				Views/StepperControl.swift,
+				Views/SumListView.swift,
+				Views/UserEditModal.swift,
+				Views/UserModalView.swift,
+				Views/UserProfileView.swift,
+			);
+			target = 92EBD96D2EA4558C0024B3FF /* ShoppingCalculatorUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		92842E4D2E071ABD0012256B /* ShoppingCalculator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				92B484852E12E3B1001F0A55 /* Exceptions for "ShoppingCalculator" folder in "ShoppingCalculator" target */,
+				92FE0C9D2EA59B9800D2F813 /* Exceptions for "ShoppingCalculator" folder in "ShoppingCalculatorTests" target */,
+				92FE0C9E2EA59B9800D2F813 /* Exceptions for "ShoppingCalculator" folder in "ShoppingCalculatorUITests" target */,
+			);
+			path = ShoppingCalculator;
+			sourceTree = "<group>";
+		};
+		92EBD9622EA4548C0024B3FF /* ShoppingCalculatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				92CB23892EA583C20088FEEF /* Exceptions for "ShoppingCalculatorTests" folder in "ShoppingCalculatorTests" target */,
+				92CB238A2EA583C20088FEEF /* Exceptions for "ShoppingCalculatorTests" folder in "ShoppingCalculatorUITests" target */,
+			);
+			path = ShoppingCalculatorTests;
+			sourceTree = "<group>";
+		};
+		92EBD96F2EA4558C0024B3FF /* ShoppingCalculatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShoppingCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92842E482E071ABD0012256B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DBCCE82E7AC60F00ED949E /* Supabase in Frameworks */,
+				9248C6CA2E86FF7500475C1C /* PhoneNumberKit in Frameworks */,
+				92DBCCE32E74741B00ED949E /* FirebaseMessaging in Frameworks */,
+				92DBCCE12E74741B00ED949E /* FirebaseAnalytics in Frameworks */,
+				920812012EA5902000565C70 /* FirebaseCore in Frameworks */,
+				9248C6CE2E86FF7500475C1C /* PhoneNumberKit-Static in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EBD95E2EA4548C0024B3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920812052EA590DB00565C70 /* FirebaseMessaging in Frameworks */,
+				920812032EA590DB00565C70 /* FirebaseCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EBD96B2EA4558C0024B3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FE0C942EA592DD00D2F813 /* FirebaseMessaging in Frameworks */,
+				92D2BC9E2EA5A0F80074E603 /* PhoneNumberKit in Frameworks */,
+				92FE0C922EA592DD00D2F813 /* FirebaseCore in Frameworks */,
+				92D2BC9C2EA5A0E60074E603 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92842E422E071ABD0012256B = {
+			isa = PBXGroup;
+			children = (
+				92842E4D2E071ABD0012256B /* ShoppingCalculator */,
+				92EBD9622EA4548C0024B3FF /* ShoppingCalculatorTests */,
+				92EBD96F2EA4558C0024B3FF /* ShoppingCalculatorUITests */,
+				92842E4C2E071ABD0012256B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92842E4C2E071ABD0012256B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92842E4B2E071ABD0012256B /* ShoppingCalculator.app */,
+				92EBD9612EA4548C0024B3FF /* ShoppingCalculatorTests.xctest */,
+				92EBD96E2EA4558C0024B3FF /* ShoppingCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92842E4A2E071ABD0012256B /* ShoppingCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92842E5B2E071AC00012256B /* Build configuration list for PBXNativeTarget "ShoppingCalculator" */;
+			buildPhases = (
+				92842E472E071ABD0012256B /* Sources */,
+				92842E482E071ABD0012256B /* Frameworks */,
+				92842E492E071ABD0012256B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				92842E4D2E071ABD0012256B /* ShoppingCalculator */,
+			);
+			name = ShoppingCalculator;
+			packageProductDependencies = (
+				92DBCCE02E74741B00ED949E /* FirebaseAnalytics */,
+				92DBCCE22E74741B00ED949E /* FirebaseMessaging */,
+				92DBCCE72E7AC60F00ED949E /* Supabase */,
+				9248C6C92E86FF7500475C1C /* PhoneNumberKit */,
+				9248C6CD2E86FF7500475C1C /* PhoneNumberKit-Static */,
+				920812002EA5902000565C70 /* FirebaseCore */,
+			);
+			productName = ShoppingCalculator;
+			productReference = 92842E4B2E071ABD0012256B /* ShoppingCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92EBD9602EA4548C0024B3FF /* ShoppingCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92EBD9672EA4548D0024B3FF /* Build configuration list for PBXNativeTarget "ShoppingCalculatorTests" */;
+			buildPhases = (
+				92EBD95D2EA4548C0024B3FF /* Sources */,
+				92EBD95E2EA4548C0024B3FF /* Frameworks */,
+				92EBD95F2EA4548C0024B3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92EBD9662EA4548C0024B3FF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92EBD9622EA4548C0024B3FF /* ShoppingCalculatorTests */,
+			);
+			name = ShoppingCalculatorTests;
+			packageProductDependencies = (
+				920812022EA590DB00565C70 /* FirebaseCore */,
+				920812042EA590DB00565C70 /* FirebaseMessaging */,
+			);
+			productName = ShoppingCalculatorTests;
+			productReference = 92EBD9612EA4548C0024B3FF /* ShoppingCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92EBD96D2EA4558C0024B3FF /* ShoppingCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92EBD9762EA4558C0024B3FF /* Build configuration list for PBXNativeTarget "ShoppingCalculatorUITests" */;
+			buildPhases = (
+				92EBD96A2EA4558C0024B3FF /* Sources */,
+				92EBD96B2EA4558C0024B3FF /* Frameworks */,
+				92EBD96C2EA4558C0024B3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92EBD9752EA4558C0024B3FF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92EBD96F2EA4558C0024B3FF /* ShoppingCalculatorUITests */,
+			);
+			name = ShoppingCalculatorUITests;
+			packageProductDependencies = (
+				92FE0C912EA592DD00D2F813 /* FirebaseCore */,
+				92FE0C932EA592DD00D2F813 /* FirebaseMessaging */,
+				92D2BC9B2EA5A0E60074E603 /* Supabase */,
+				92D2BC9D2EA5A0F80074E603 /* PhoneNumberKit */,
+			);
+			productName = ShoppingCalculatorUITests;
+			productReference = 92EBD96E2EA4558C0024B3FF /* ShoppingCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92842E432E071ABD0012256B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					92842E4A2E071ABD0012256B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					92EBD9602EA4548C0024B3FF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 92842E4A2E071ABD0012256B;
+					};
+					92EBD96D2EA4558C0024B3FF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 92842E4A2E071ABD0012256B;
+					};
+				};
+			};
+			buildConfigurationList = 92842E462E071ABD0012256B /* Build configuration list for PBXProject "ShoppingCalculator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+				Base,
+			);
+			mainGroup = 92842E422E071ABD0012256B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				92DBCCDF2E74741B00ED949E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				92DBCCE62E7AC60F00ED949E /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				9248C6C82E86FF7500475C1C /* XCRemoteSwiftPackageReference "PhoneNumberKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 92842E4C2E071ABD0012256B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92842E4A2E071ABD0012256B /* ShoppingCalculator */,
+				92EBD9602EA4548C0024B3FF /* ShoppingCalculatorTests */,
+				92EBD96D2EA4558C0024B3FF /* ShoppingCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92842E492E071ABD0012256B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EBD95F2EA4548C0024B3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EBD96C2EA4558C0024B3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92842E472E071ABD0012256B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EBD95D2EA4548C0024B3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EBD96A2EA4558C0024B3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92EBD9662EA4548C0024B3FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92842E4A2E071ABD0012256B /* ShoppingCalculator */;
+			targetProxy = 92EBD9652EA4548C0024B3FF /* PBXContainerItemProxy */;
+		};
+		92EBD9752EA4558C0024B3FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92842E4A2E071ABD0012256B /* ShoppingCalculator */;
+			targetProxy = 92EBD9742EA4558C0024B3FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92842E592E071AC00012256B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92842E5A2E071AC00012256B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92842E5C2E071AC00012256B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShoppingCalculator/ShoppingCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoppingCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = WUZP45G6T5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShoppingCalculator/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to recognize text.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires permission to save captured photos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = st.ShoppingCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92842E5D2E071AC00012256B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShoppingCalculator/ShoppingCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoppingCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = WUZP45G6T5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShoppingCalculator/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to recognize text.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires permission to save captured photos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = st.ShoppingCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92EBD9682EA4548D0024B3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUZP45G6T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = st.ShoppingCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShoppingCalculator";
+			};
+			name = Debug;
+		};
+		92EBD9692EA4548D0024B3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUZP45G6T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = st.ShoppingCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShoppingCalculator";
+			};
+			name = Release;
+		};
+		92EBD9772EA4558C0024B3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUZP45G6T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = st.ShoppingCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShoppingCalculator;
+			};
+			name = Debug;
+		};
+		92EBD9782EA4558C0024B3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUZP45G6T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = st.ShoppingCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShoppingCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92842E462E071ABD0012256B /* Build configuration list for PBXProject "ShoppingCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92842E592E071AC00012256B /* Debug */,
+				92842E5A2E071AC00012256B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92842E5B2E071AC00012256B /* Build configuration list for PBXNativeTarget "ShoppingCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92842E5C2E071AC00012256B /* Debug */,
+				92842E5D2E071AC00012256B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92EBD9672EA4548D0024B3FF /* Build configuration list for PBXNativeTarget "ShoppingCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EBD9682EA4548D0024B3FF /* Debug */,
+				92EBD9692EA4548D0024B3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92EBD9762EA4558C0024B3FF /* Build configuration list for PBXNativeTarget "ShoppingCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EBD9772EA4558C0024B3FF /* Debug */,
+				92EBD9782EA4558C0024B3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9248C6C82E86FF7500475C1C /* XCRemoteSwiftPackageReference "PhoneNumberKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/PhoneNumberKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.4;
+			};
+		};
+		92DBCCDF2E74741B00ED949E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.2.0;
+			};
+		};
+		92DBCCE62E7AC60F00ED949E /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		920812002EA5902000565C70 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92DBCCDF2E74741B00ED949E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		920812022EA590DB00565C70 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92DBCCDF2E74741B00ED949E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		920812042EA590DB00565C70 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92DBCCDF2E74741B00ED949E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		9248C6C92E86FF7500475C1C /* PhoneNumberKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9248C6C82E86FF7500475C1C /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = PhoneNumberKit;
+		};
+		9248C6CD2E86FF7500475C1C /* PhoneNumberKit-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9248C6C82E86FF7500475C1C /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = "PhoneNumberKit-Static";
+		};
+		92D2BC9B2EA5A0E60074E603 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92DBCCE62E7AC60F00ED949E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		92D2BC9D2EA5A0F80074E603 /* PhoneNumberKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9248C6C82E86FF7500475C1C /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = PhoneNumberKit;
+		};
+		92DBCCE02E74741B00ED949E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92DBCCDF2E74741B00ED949E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		92DBCCE22E74741B00ED949E /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92DBCCDF2E74741B00ED949E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		92DBCCE72E7AC60F00ED949E /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92DBCCE62E7AC60F00ED949E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		92FE0C912EA592DD00D2F813 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92DBCCDF2E74741B00ED949E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		92FE0C932EA592DD00D2F813 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92DBCCDF2E74741B00ED949E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 92842E432E071ABD0012256B /* Project object */;
+}
