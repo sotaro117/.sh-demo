@@ -4,9 +4,7 @@
 
 ## Gallery
 
-![demo1](./demo-asset/sh-demo01.png) ![demo2](./demo-asset/sh-demo02.png) ![demo3](./demo-asset/sh-demo03.png)
-
-![demo4](./demo-asset/sh-demo04.png) ![demo5](./demo-asset/sh-demo05.png) ![demo6](./demo-asset/sh-demo06.png) ![demo6](./demo-asset/sh-demo07.png)
+![demo1](./demo-asset/sh-demo01.png) ![demo2](./demo-asset/sh-demo02.png) ![demo3](./demo-asset/sh-demo03.png) ![demo4](./demo-asset/sh-demo04.png) ![demo5](./demo-asset/sh-demo05.png) ![demo6](./demo-asset/sh-demo06.png) ![demo6](./demo-asset/sh-demo07.png)
 
 ### Demo Video
 
