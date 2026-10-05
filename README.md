@@ -2,6 +2,14 @@
 
 ** phone number OTP not available due to cost issue **
 
+## Gallery
+
+![demo video](./demo-asset/sh-demo.mov)
+
+![demo1](./demo-asset/sh-demo01.png) ![demo2](./demo-asset/sh-demo02.png) ![demo3](./demo-asset/sh-demo03.png)
+
+![demo4](./demo-asset/sh-demo04.png) ![demo5](./demo-asset/sh-demo05.png) ![demo6](./demo-asset/sh-demo06.png) ![demo6](./demo-asset/sh-demo07.png)
+
 ## Test flight: https://testflight.apple.com/join/jT5xYUxr
 
 ## Description:
