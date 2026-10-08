@@ -44,6 +44,7 @@ __pycache__/
 venv/
 env/
 env.*/
+shopping-calculator-tools/shopping-calculator-agent/sh-venv/
 *.egg-info/
 pip-wheel-metadata/
 
